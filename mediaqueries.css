@@ -101,3 +101,20 @@
     text-align: justify;
   }
 }
+
+@media screen and (max-width: 768px) {
+  #coding-profiles .coding-profiles-container {
+    flex-direction: column; /* Stack coding profiles vertically */
+    align-items: center; /* Center-align coding profiles */
+  }
+
+  .coding-profile {
+    margin: 20px 0; /* Adjust vertical spacing between coding profiles */
+  }
+
+  .coding-profile-icon {
+    margin-top: 0; /* Reset top margin for coding profile icons */
+    width: 200px; /* Adjust width of coding profile icons */
+    height: auto; /* Maintain aspect ratio */
+  }
+}
